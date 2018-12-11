@@ -1,0 +1,17 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\title{Ejercicios Practica}
+\author{Eduardo Castro}
+\date{Marzo 2017}
+\begin{document}
+\maketitle
+Solución a ejercicios de la práctica
+\begin{enumerate}
+	\item Conocer el nombre de todos los chóferes que tengan mas de 25 años.\\
+	$$Choferes \leftarrow Persona \bowtie_{Persona.id\_persona = Chofer.id\_persona} Chofer$$
+	$$Nombre \leftarrow \Pi_{nombre}( \sigma_{(fecha\_nacimiento < 01/04/92)}(Choferes))$$
+	\item m
+\end{enumerate}
+\end{document}
